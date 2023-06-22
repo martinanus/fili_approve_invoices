@@ -1,0 +1,34 @@
+<mxfile modified="2023-04-12T17:15:31.797Z" host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="iRIsW4jsdVlrMyywTqbB" version="21.1.7" type="device">
+  <diagram id="adZzISo7xGxe_SIeWnMA" name="approve_inv">
+    <mxGraphModel dx="1280" dy="940" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NGI9EZLQc5Xx4-yYpLzr-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="NGI9EZLQc5Xx4-yYpLzr-1" target="NGI9EZLQc5Xx4-yYpLzr-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NGI9EZLQc5Xx4-yYpLzr-1" value="Botón&lt;br&gt;Aprobar Factura&lt;br&gt;&lt;font color=&quot;#007fff&quot;&gt;[Looker]&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-26" y="-260" width="146" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="NGI9EZLQc5Xx4-yYpLzr-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="NGI9EZLQc5Xx4-yYpLzr-2" target="NGI9EZLQc5Xx4-yYpLzr-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NGI9EZLQc5Xx4-yYpLzr-2" value="Función&lt;br&gt;Aprobar Factura&lt;br&gt;&lt;font color=&quot;#000099&quot;&gt;[Cloud Function]&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="147" y="-194" width="203" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="NGI9EZLQc5Xx4-yYpLzr-3" value="factura aprobada por &lt;br&gt;ID factura&lt;br&gt;+&lt;br&gt;n°Cuota&lt;br&gt;+&lt;br&gt;n°pago&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#6666ff&quot;&gt;Tabla - Invoices [BigQuery]&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="416" y="-89" width="132" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="NGI9EZLQc5Xx4-yYpLzr-4" value="Aprobación de facturas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="216" y="-321" width="219" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="NGI9EZLQc5Xx4-yYpLzr-9" value="ejecuta" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontColor=#FF173E;" parent="1" vertex="1">
+          <mxGeometry x="132" y="-213" width="70" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="NGI9EZLQc5Xx4-yYpLzr-10" value="actualiza" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontColor=#FF0F47;" parent="1" vertex="1">
+          <mxGeometry x="350" y="-126" width="81" height="31" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
