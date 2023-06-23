@@ -5,12 +5,12 @@ from google.oauth2 import service_account
 
 key_path              = "credentials.json"
 project_name          = "fili-377220"
-invoices_table_name   = "invoices"
+invoices_table_name   = "i_06_invoices_t"
 db_request            = {'args' : {
-                            'id'          : '1234541',
-                            'invoiceid'   : '1234541',
+                            'id'          : '412267011',
+                            'invoiceid'   : '4122670',
                             'installment' : '1',
-                            'dataset'     : 'fili_staging',
+                            'dataset'     : 'fili_sandbox',
                             'datetime'    : 'UTC-3'
                             }
                         }
